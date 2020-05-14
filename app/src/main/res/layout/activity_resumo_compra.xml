@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/resumo_compra_banner_inicial"
+        android:layout_width="0dp"
+        android:layout_height="100dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:color/holo_orange_dark"
+        android:contentDescription="@string/banner_inicial" />
+
+    <ImageView
+        android:id="@+id/resumo_compra_imagem_pacote"
+        android:layout_width="0dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="8dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_compra_confira_resumo"
+        app:layout_constraintVertical_bias="0.0"
+        tools:srcCompat="@drawable/sao_paulo_sp"
+        android:contentDescription="@string/imagem_do_pacote" />
+
+    <TextView
+        android:id="@+id/resumo_compra_realizada_sucesso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/compra_efetuada_com_sucesso"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        android:textAlignment="center"
+        android:gravity="center_horizontal"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintEnd_toEndOf="@id/resumo_compra_parabens"
+        app:layout_constraintStart_toStartOf="@+id/resumo_compra_parabens"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_compra_parabens"/>
+
+    <TextView
+        android:id="@+id/resumo_compra_confira_resumo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/confira_resumo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_compra_banner_inicial" />
+
+    <TextView
+        android:id="@+id/resumo_compra_parabens"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/parabens"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/resumo_compra_banner_inicial"
+        app:layout_constraintEnd_toEndOf="@+id/resumo_compra_banner_inicial"
+        app:layout_constraintStart_toStartOf="@+id/resumo_compra_banner_inicial"
+        app:layout_constraintTop_toTopOf="@+id/resumo_compra_banner_inicial"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/resumo_compra_pacote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_compra_imagem_pacote"
+        tools:text="São paulo" />
+
+    <TextView
+        android:id="@+id/resumo_compra_data_viagem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        app:layout_constraintStart_toStartOf="@+id/resumo_compra_pacote"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_compra_pacote"
+        tools:text="08/12 - 10/12 de 2017" />
+
+    <TextView
+        android:id="@+id/resumo_compra_preco_pacote"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        tools:text="R$ 243,99"
+        app:layout_constraintStart_toStartOf="@+id/resumo_compra_data_viagem"
+        app:layout_constraintTop_toBottomOf="@+id/resumo_compra_data_viagem" />
+
+</android.support.constraint.ConstraintLayout>
