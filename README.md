@@ -7,6 +7,10 @@ Simples aplicação desenvolvida durante a realização dos seguintes cursos:
  
 Os Cursos abordam o desenvolvimento de um app que contém algumas telas como lista de pacotes de viagem, descrição do pacote, pagamento e pagamento finalizado.  As telas foram implementadas utilizando o Costraint layout, a contrução dos layouts foi feita tanto via arquivo xml quanto interface do android studio.
 
+<p align="center">
+  <img src="alura-viagens.gif"/>
+</p>
+
 
 ## Conceitos interessantes que foram abordados durante o curso.
 * CostrainLayout
