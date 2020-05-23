@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/android-alura-viagens-parte-2-projeto-inicial.iml" filepath="$PROJECT_DIR$/android-alura-viagens-parte-2-projeto-inicial.iml" group="android-alura-viagens-parte-2-projeto-inicial" />
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="android-alura-viagens-parte-2-projeto-inicial/app" />
+      <module fileurl="file://$PROJECT_DIR$/Alura_viagens_app.iml" filepath="$PROJECT_DIR$/Alura_viagens_app.iml" group="Alura_viagens_app" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="Alura_viagens_app/app" />
     </modules>
   </component>
 </project>
